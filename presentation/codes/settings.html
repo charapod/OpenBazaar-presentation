@@ -1,0 +1,28 @@
+...
+ <div class="form-group {{profileForm.inputNickname.$invalid ? 'has-error' : ''}}">
+            <label for="inputNickname" class="col-sm-3 control-label">Nickname</label>
+            <div class="col-sm-9">
+                <input data-ng-model="settings.nickname" data-ng-maxlength="120" 
+                class="form-control" id="inputNickname" name="inputNickname" 
+                placeholder="Nickname">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputNamecoin_id" class="col-sm-3 control-label">Namecoin id</label>
+            <div class="col-sm-9">
+                <input data-ng-model="settings.namecoin_id" data-ng-maxlength="39" 
+                data-ng-pattern="/^[a-z0-9\-]+$/" class="form-control" 
+                id="inputNamecoin_id" name="inputNamecoin_id" placeholder="Namecoin id">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputStoreDescription" class="col-sm-3 
+                control-label">Store Description</label>
+            <div class="col-sm-9">
+                <textarea data-ng-model="settings.storeDescription" data-ng-maxlength="2048" 
+                name="inputStoreDescription" class="form-control" id="inputStoreDescription" 
+                rows="5" placeholder="Enter a short description about your store"></textarea>
+            </div>
+...

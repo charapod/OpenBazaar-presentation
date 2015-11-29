@@ -1,0 +1,39 @@
+..
+<div data-ng-show="storeInfoPanel" class="animated fadeIn">
+    <table class="table table-bordered table-striped" 
+            style="font-size:14px;width:100%;table-layout:fixed">
+        <tr data-ng-show="page.senderNamecoin">
+            <td class="col-xs-3">Store URL</td>
+            <td style="word-wrap:break-word">{{page.senderNamecoin}}</td>
+        </tr>
+        <tr data-ng-show="page.email">
+            <td class="col-xs-3">Email Address</td>
+            <td style="word-wrap:break-word">
+            <a href="mailto:{{page.email}}">{{page.email}}</a></td>
+        </tr>
+        <tr data-ng-show="page.bitmessage">
+            <td class="col-xs-3">Bitmessage Address</td>
+            <td style="word-wrap:break-word">
+            <a href="" data-ng-click="compose_message('lg', 
+                myself, '', null)">{{page.bitmessage}}</a>
+                <!--<button class="btn btn-info" 
+                    data-ng-click="compose_message('lg', 
+                myself, page.bitmessage, null)">Send Message</button>-->
+            </td>
+        </tr>
+        <tr>
+            <td class="col-xs-3">Open Bazaar Public Key</td>
+            <td style="word-wrap:break-word">{{page.pubkey}}</td>
+        </tr>
+        <tr>
+            <td class="col-xs-3">Reputation Pledge</td>
+            <td style="word-wrap:break-word">B{{page.reputation_pledge}}</td>
+        </tr>
+        <tr data-ng-show="page.PGPPubKey">
+            <td class="col-xs-3">PGP Key</td>
+            <td style="word-wrap:break-word;">
+            <pre style="font-size:12px;">{{page.PGPPubKey}}</pre></td>
+        </tr>
+    </table>
+</div>
+...

@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Bitcoin}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{What is it}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{How it works}{4}{0}{1}
+\beamer@sectionintoc {2}{Namecoin}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Differences from Bitcoin}{6}{0}{2}
+\beamer@sectionintoc {3}{OpenBazaar}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{What is OpenBazaar?}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{How does OB work}{19}{0}{3}
+\beamer@subsectionintoc {3}{3}{Proof-of-burn and Reputation Pledges}{24}{0}{3}
+\beamer@sectionintoc {4}{OB and Namecoin}{30}{0}{4}
+\beamer@subsectionintoc {4}{1}{Why OB and Namecoin}{30}{0}{4}
